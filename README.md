@@ -21,12 +21,12 @@ Our workflow is as follows:-
 •	_Platform_: Google Colab
 •	_Languages_: Python
 •	_Libraries Used_:  
-   o	pandas
-   o	numpy
-   o	seaborn
-   o	matplotlib.pyplot
-   o	scikit-learn
-   o	keras
+   1.	pandas
+   2.	numpy
+   3.	seaborn
+   4.	matplotlib.pyplot
+   5.	scikit-learn
+   6.	keras
 
 # Applications:
 1.	_Predictive modeling_: Use the trained random forest classifier to predict whether a new transaction is fraudulent or not. The model will consider the extracted features as input and output a binary classification result indicating whether the transaction is fraudulent or not.
@@ -36,14 +36,14 @@ Our workflow is as follows:-
 
 # Result:
 It can be seen that Random Forest Classifier outperforms all the other ML models:
-•	It can be seen that the Random Forest classifier and Ensemble Learning have the highest accuracy of 100%. Other ML models have an accuracy of 99%.
-•	_Hence, accuracy is not the only parameter to evaluate the model._
-•	The precision of the Random Forest Classifier is the highest. Ensemble Learning also has a precision with a difference of 1%.
-•	The recall of decision tree and deep learning is the highest.
-•	The F1 score of the random forest classifier and ensemble learning is highest, however, the time taken by the random forest classifier is less than ensemble learning.
+1.	It can be seen that the Random Forest classifier and Ensemble Learning have the highest accuracy of 100%. Other ML models have an accuracy of 99%.
+	_Hence, accuracy is not the only parameter to evaluate the model._
+2.	The precision of the Random Forest Classifier is the highest. Ensemble Learning also has a precision with a difference of 1%.
+3.	The recall of decision tree and deep learning is the highest.
+4.	The F1 score of the random forest classifier and ensemble learning is highest, however, the time taken by the random forest classifier is less than ensemble learning.
 
 # How the idea can be scaled for larger and more advanced problems?
-•	_Feature engineering_: We need to extract meaningful features from the credit card transaction data such as transaction amount, location, time of day, cardholder's spending patterns, and so on.
-•	_Real-time monitoring_: Once the model is trained, we can deploy it to a real-time monitoring system that analyzes incoming credit card transactions. If the model detects a transaction as fraudulent, it can immediately alert the cardholder and/or the financial institution to take appropriate action.
-•	_Continuous learning_: To improve the accuracy of the model over time, we can also incorporate continuous learning techniques. This involves retraining the model on new data and incorporating feedback from fraud analysts to refine the model's predictions.
+1. 	_Feature engineering_: We need to extract meaningful features from the credit card transaction data such as transaction amount, location, time of day, cardholder's spending patterns, and so on.
+2. 	_Real-time monitoring_: Once the model is trained, we can deploy it to a real-time monitoring system that analyzes incoming credit card transactions. If the model detects a transaction as fraudulent, it can immediately alert the cardholder and/or the financial institution to take appropriate action.
+3.  _Continuous learning_: To improve the accuracy of the model over time, we can also incorporate continuous learning techniques. This involves retraining the model on new data and incorporating feedback from fraud analysts to refine the model's predictions.
 
