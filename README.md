@@ -18,9 +18,9 @@ Our workflow is as follows:-
 5.	_Model evaluation and comparing performance metrics_: We have evaluated the trained models on the testing set and analyzed their performance metrics such as accuracy, AUC score, confusion matrix, and classification report.
 
 # Technology Stack:- 
-•_Platform_: Google Colab
-•_Languages_: Python
-•_Libraries Used_:  
+• _Platform_: Google Colab                                                                                                                                                   
+• _Languages_: Python                                                                                                                                                       
+• _Libraries Used_:                                                                                                                                                         
    1.	pandas
    2.	numpy
    3.	seaborn
