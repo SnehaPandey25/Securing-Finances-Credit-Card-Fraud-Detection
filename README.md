@@ -20,7 +20,7 @@ Our workflow is as follows:-
 # Technology Stack:- 
 • _Platform_: Google Colab                                                                                                                                                   
 • _Languages_: Python                                                                                                                                                       
-• _Libraries Used_:                                                                                                                                                         
+• _Libraries Used_:
    1.	pandas
    2.	numpy
    3.	seaborn
