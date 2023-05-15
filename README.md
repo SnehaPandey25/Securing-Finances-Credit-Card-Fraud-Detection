@@ -35,6 +35,8 @@ Our workflow is as follows:-
 4.	_Continuous learning_: The random forest model can be continuously updated by retraining it on new data and incorporating feedback from fraud analysts. This will help the model adapt to evolving fraud patterns and maintain its effectiveness over time.
 
 # Result:
+<img width="369" alt="image" src="https://github.com/SnehaPandey25/Securing-Finances-Credit-Card-Fraud-Detection/assets/89721610/004c495b-315e-4356-b2fa-624804c286a0">
+
 It can be seen that Random Forest Classifier outperforms all the other ML models:
 1.	It can be seen that the Random Forest classifier and Ensemble Learning have the highest accuracy of 100%. Other ML models have an accuracy of 99%.
 	_Hence, accuracy is not the only parameter to evaluate the model._
